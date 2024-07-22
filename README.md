@@ -4,7 +4,9 @@
 
 # step2- run this code in terminal 
 
-python tracking_savetime.py --source "data/output/combined_output.avi" --save-img --view-img  --weights "model/PeopleDetector.pt"
+python tracking_savetime.py --source "data/7.mp4" --save-img --view-img  --weights "model/best.pt"
+
+python main2.py --source "data/7.mp4" --save-img --view-img  --weights "model/finetune_best.pt"
 
 
 # threading file run
